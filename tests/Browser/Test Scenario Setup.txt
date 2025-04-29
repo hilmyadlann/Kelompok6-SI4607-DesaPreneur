@@ -1,0 +1,33 @@
+make new test file : php artisan dusk:make ExampleTest (jangan lupa pake "Test" di akhir nama file)
+
+
+1. Register => make sure akun khusus testing yg di set blm ada (kalau sudah ada, hapus di database nya)
+2. Login (invalid, valid) => samain pake akun yg di register (khusus testing aja)
+3. Buka Toko => make sure login pake akun khusus testing. isi form menyesuaikan saja
+
+4. login admin (invalid, valid) 
+5. Verif Umkm => accept umkm yg sblmnya udh di apply sama akun khusus testing
+
+6. Buka toko => pake user (5), gausah pakein foto dulu
+7. edit toko => tambahin fotonya
+
+8. add produk => 
+
+
+
+====================
+login admin invalid
+login admin valid
+admin add kecamatan dan desa
+
+user register
+user login invalid
+user login valid
+
+user buka toko ((setup dl kecamatan sama desa nya dan User nya)) kecamatan = 1, desa = 1, user = 3
+admin accept umkmnya
+
+seller edit profil umkm
+
+seller add product
+seller edit product
