@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'e431f425e6f635253301e3571f1a208e74aca977',
+        'pretty_version' => 'dev-PPLKEL6-6-Halaman-Detail-Produk',
+        'version' => 'dev-PPLKEL6-6-Halaman-Detail-Produk',
+        'reference' => 'e3923d2a5742157cedf02dadf98fb684ec0ecc2e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -467,9 +467,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'e431f425e6f635253301e3571f1a208e74aca977',
+            'pretty_version' => 'dev-PPLKEL6-6-Halaman-Detail-Produk',
+            'version' => 'dev-PPLKEL6-6-Halaman-Detail-Produk',
+            'reference' => 'e3923d2a5742157cedf02dadf98fb684ec0ecc2e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -943,8 +943,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '3.0.0',
-                1 => '1.0|2.0|3.0',
+                0 => '1.0|2.0|3.0',
+                1 => '3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
