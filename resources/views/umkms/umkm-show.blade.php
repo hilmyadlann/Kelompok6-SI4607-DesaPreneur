@@ -20,7 +20,8 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
                 
-                    <!-- Form untuk mengedit informasi UMKM -->
+                    <!-- Form mengedit informasi UMKM -->
+
                     <form method="POST" action="{{ route('umkms.update', $umkm) }}" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
