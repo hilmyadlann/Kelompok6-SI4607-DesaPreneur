@@ -8,7 +8,7 @@
     </x-slot>
 
     <x-slot name="form">
-        <!-- Profile Photo -->
+        <!-- Profile Photo Update -->
         @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
             <div x-data="{photoName: null, photoPreview: null}" class="col-span-6 sm:col-span-4">
                 <!-- Profile Photo File Input -->
@@ -17,7 +17,7 @@
                             x-ref="photo"
                             x-on:change="
                                     photoName = $refs.photo.files[0].name;
-                                    const reader = new FileReader();
+                                    const reader = news FileReader();
                                     reader.onload = (e) => {
                                         photoPreview = e.target.result;
                                     };
