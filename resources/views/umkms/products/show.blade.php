@@ -183,7 +183,7 @@
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'X-CSRF-TOKEN': '{{ csrf_token() }}' // Pastikan Anda menambahkan CSRF token
+                'X-CSRF-TOKEN': '{{ csrf_token() }}' // Pastikan Anda menambahkan CSRF token MIWE
             },
             body: JSON.stringify({ product_id: productId })
         })

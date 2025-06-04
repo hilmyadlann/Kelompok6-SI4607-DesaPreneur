@@ -69,7 +69,7 @@
                 </a>
             </nav>
             <div class="absolute bottom-0 w-56 mb-4">
-                <!-- Tambahkan Form Logout -->
+                <!-- Tambahkan Form Logout Miwe -->
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                     @csrf
                 </form>
