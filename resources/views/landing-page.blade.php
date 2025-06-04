@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 
     <title>Welcome to DesaPreneur</title>
-
+    {{--  --}}
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -30,7 +30,7 @@
                     transform: translateY(0);
                 }
             }
-            
+
             .slider-container {
                 display: flex;
                 overflow: hidden;
@@ -50,7 +50,7 @@
             transform: translateX(-400%);
         }
     }
-        
+
         </style>
 
 </head>
@@ -91,7 +91,7 @@
         <!-- KATEGORI -->
         <section>
   <div id="about-section" class="py-8 px-4 md:px-6 lg:px-8 w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-      
+
       <!-- Makanan dan Minuman -->
       <a href="{{ route('landing.category', ['category' => 'Makanan dan Minuman']) }}#products" class="h-full">
           <div class="bg-green-300 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center justify-center hover:bg-green-500 active:bg-green-600 h-full">
@@ -273,7 +273,7 @@
     // Ambil nilai desa_id dari parameter query jika ada
     const urlParams = new URLSearchParams(window.location.search);
     const desaId = urlParams.get('desa_id');
-    
+
     // Set nilai dropdown menjadi desa_id jika tersedia
     if (desaId) {
         document.getElementById("desaSelect").value = desaId;
